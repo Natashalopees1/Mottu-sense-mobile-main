@@ -64,6 +64,10 @@ export default function SobreNos({ navigation }) {
           <Text style={[styles.contactButtonText, { color: theme.colors.background }]}>{t("contactCTA") || "Entre em contato"}</Text>
         </TouchableOpacity>
 
+        <View style={[styles.hashBox, { backgroundColor: theme.colors.background, borderColor: theme.colors.border }]}> 
+          <Text style={[styles.hashText, { color: theme.colors.text }]}>4adf40ece4803e7fd50d545fbc9ddfb61de35d55</Text>
+        </View>
+
         <Text style={[styles.version, { color: theme.colors.subtitleText }]}>{t("version", { version: "1.0.0" })}</Text>
       </View>
     </ScrollView>
@@ -153,5 +157,17 @@ const styles = StyleSheet.create({
   version: {
     marginTop: 14,
     fontSize: 12,
+  },
+  hashBox: {
+    width: "100%",
+    padding: 12,
+    borderRadius: 8,
+    marginTop: 12,
+    borderWidth: 1,
+  },
+  hashText: {
+    fontSize: 12,
+    fontFamily: "monospace",
+    textAlign: "center",
   },
 });
