@@ -77,7 +77,7 @@ Se outras bibliotecas forem adicionadas (ex.: analytics, auth, push providers), 
 
 - Natasha Lopes — RM 554816 — GitHub: `natahalopees1`
 - Barbara Dias — RM 556974 — GitHub: `bahdiaz`
-- Beatriz Ferreira Cruz - RM 555698 - GitHub: ``
+- Beatriz Ferreira Cruz - RM 555698 - GitHub: `BeatrizFerreira01`
 
 ## Desenvolvimento e boas práticas
 
